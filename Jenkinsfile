@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "https://github.com/Lola-Austin/devops-tp.git"
+        DOCKER_IMAGE = "lola/hello-devops"
     }
 
     stages {
@@ -20,3 +20,5 @@ pipeline {
         }
     }
 }
+
+
